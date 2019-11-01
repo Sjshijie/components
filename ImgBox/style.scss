@@ -1,0 +1,17 @@
+.imgBox{
+    width:60px;
+    height:60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.backImg{
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.img{
+    max-width: 100%;
+}

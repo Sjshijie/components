@@ -1,0 +1,23 @@
+.form{
+    width:100%;
+    :global(.ant-form-item){
+        display: flex;
+        align-items: center;
+
+    }
+    :global(.ant-form-item-label){
+        min-width: 120px;
+        text-align: left;
+    }
+    :global(.ant-form-item-control-wrapper){
+        flex:1;
+    }
+    :global(.ant-select){
+        width:100%;
+    }
+
+    :global(.ant-calendar-picker){
+        width:100%;
+    }
+
+}
